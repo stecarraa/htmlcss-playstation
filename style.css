@@ -6,3 +6,11 @@
     background-position: center;
     
 }
+
+img{
+    width: 100%;
+}
+
+.ms-rounded{
+    border-radius: 25px;
+}
