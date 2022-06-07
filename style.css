@@ -20,10 +20,16 @@
     
 }
 
-img{
-    width: 100%;
-}
+
 
 .ms-rounded{
     border-radius: 25px;
+}
+
+.ms-logo-footer{
+    height: 100px;
+}
+
+.ms-globe-footer{
+    height: 20px;
 }
