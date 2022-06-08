@@ -1,3 +1,9 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 #returnal{
     background-image: url(./img/jumbo-bg.png);
     background-size: cover;
@@ -38,6 +44,21 @@ ul {
     border: 5px solid white;
   }
 
+  .ms-btn-border:hover{
+    outline: 1px solid #C0BDBC; 
+    border: 1px solid white;
+  }
+
+  .ms-btn-blue-border:hover{
+    outline: 1px solid #0d6efd; 
+    border: 1px solid white;
+  }
+
+  .ms-btn-orange-border:hover{
+    outline: 1px solid #DC3444; 
+    border: 1px solid red;
+  }
+
 .ms-game-up {
   position: relative;
   top: 0;
@@ -60,8 +81,14 @@ ul {
     opacity: 0.5;
 }
 
+.ms-bg-gray{
+    background-color: #C0BDBC;
+}
 
+.ms-bg-blue{
+    background-color: #000A2E;
 
+}
 
 .ms-rounded{
     border-radius: 25px;
@@ -85,3 +112,35 @@ ul {
 footer{
     background-color: #0d6efd;
 }
+
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.ms-arrow-menu{
+    height: 10px;
+}
+.ms-arrow-menu-hover{
+    display: none;
+}
+
+header nav li:hover .ms-arrow-menu-hover{
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
+header nav li:hover .ms-arrow-menu-block{ 
+    display: none;
+}
+
+header nav li:focus .ms-arrow-menu-hover{
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
+header nav li:focus .ms-arrow-menu-block{ 
+    display: none;
+}
+
+
